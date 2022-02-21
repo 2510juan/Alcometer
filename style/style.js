@@ -1,0 +1,106 @@
+import { StyleSheet } from "react-native";
+import Constants from "expo-constants";
+
+export default StyleSheet.create({
+  container: {
+    paddingTop: 30,
+    marginTop: Constants.statusBarHeight,
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  heading: {
+    marginTop: 20,
+    marginBottom: 40,
+    textAlign: "center",
+    fontSize: 40,
+    color: "#04B0CA",
+    fontWeight: "bold",
+  },
+  valueNames: {
+    margin: 10,
+    fontSize: 20,
+  },
+  input: {
+    marginLeft: 12,
+    marginBottom: 10,
+    fontSize: 14,
+  },
+  picker: {
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 10,
+  },
+  radioButtonContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 15,
+    marginLeft: 15,
+    justifyContent: "space-between",
+    marginRight: 15,
+  },
+  label: {
+    fontSize: 16,
+  },
+  radioButtonCircle: {
+    height: 30,
+    width: 30,
+    borderRadius: 100,
+    borderWidth: 2,
+    borderColor: "#04B0CA",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  radioButtonChecked: {
+    height: 18,
+    width: 18,
+    borderRadius: 100,
+    backgroundColor: "#04B0CA",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  greenResult: {
+    fontSize: 35,
+    marginTop: 15,
+    marginBottom: 25,
+    textAlign: "center",
+    color: "#3EBE09",
+    fontWeight: "bold",
+  },
+  yellowResult: {
+    fontSize: 35,
+    marginTop: 15,
+    marginBottom: 25,
+    textAlign: "center",
+    color: "#F3D102",
+    fontWeight: "bold",
+  },
+  redResult: {
+    fontSize: 35,
+    marginTop: 15,
+    marginBottom: 25,
+    textAlign: "center",
+    color: "#d3212d",
+    fontWeight: "bold",
+  },
+  button: {
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 14,
+    paddingHorizontal: 35,
+    borderRadius: 8,
+    elevation: 3,
+    backgroundColor: "#04B0CA",
+  },
+  buttonText: {
+    fontSize: 20,
+    letterSpacing: 0.25,
+    color: "white",
+    textAlign: "center",
+  },
+  footer: {
+    fontSize: 10,
+    color: "#C5C5C5",
+    textAlign: "center",
+    marginTop: 90,
+  },
+});
